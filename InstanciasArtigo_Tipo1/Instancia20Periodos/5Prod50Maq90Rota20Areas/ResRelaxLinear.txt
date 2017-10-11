@@ -1,0 +1,3 @@
+Status da solucao: Optimal
+ Funcao Objetivo: 331.738
+Tempo com Relaxação Linear(segundos): 674

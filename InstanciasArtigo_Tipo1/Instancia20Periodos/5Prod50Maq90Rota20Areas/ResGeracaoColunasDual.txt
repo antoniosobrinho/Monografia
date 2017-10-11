@@ -1,0 +1,4 @@
+--- Numero Iteracoes processo de Geracao de Colunas:  7
+              Funcao Objetivo  (CPLEX:) = 331.738
+ Total de colunas (Micro-Periodos) gerados no Mestre : 369
+Tempo com Geração Colunas (segundos): 20

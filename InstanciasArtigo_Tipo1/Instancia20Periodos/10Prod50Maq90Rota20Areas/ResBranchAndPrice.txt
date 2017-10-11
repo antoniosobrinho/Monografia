@@ -1,0 +1,1296 @@
+*********************************
+GAP Atualizado:21.7449
+LI Atual      : 480.142
+LS Atual      : 613.56
+ Tempo(parcial): 97
+Total de Nos  : 2
+*********************************
+**************** ***********
+Primeira solucao Inteira!!!!!
+Novo FO(LS): 609.355
+Total de nos na arvore: 274
+Branch and Price Tempo(parcial): 14827
+LI Atual: 480.142
+Gap Integralidade: 21.2049
+**************** ***********
+*** Encontrado novo LS!! ****
+LI Atual: 480.142
+Novo LS: 609.355
+Gap Integralidade: 21.2049
+Total de Nos: 274
+Branch and Price Tempo(parcial): 14827
+**************** ***********
+*********************************
+GAP Atualizado:21.1998
+LI Atual      : 480.173
+LS Atual      : 609.355
+ Tempo(parcial): 15065
+Total de Nos  : 278
+*********************************
+*********************************
+GAP Atualizado:21.1447
+LI Atual      : 480.509
+LS Atual      : 609.355
+ Tempo(parcial): 15137
+Total de Nos  : 280
+*********************************
+*********************************
+GAP Atualizado:21.1409
+LI Atual      : 480.532
+LS Atual      : 609.355
+ Tempo(parcial): 15192
+Total de Nos  : 282
+*********************************
+*********************************
+GAP Atualizado:21.1354
+LI Atual      : 480.566
+LS Atual      : 609.355
+ Tempo(parcial): 15348
+Total de Nos  : 286
+*********************************
+*********************************
+GAP Atualizado:21.1301
+LI Atual      : 480.598
+LS Atual      : 609.355
+ Tempo(parcial): 15521
+Total de Nos  : 288
+*********************************
+*********************************
+GAP Atualizado:21.1228
+LI Atual      : 480.642
+LS Atual      : 609.355
+ Tempo(parcial): 15596
+Total de Nos  : 290
+*********************************
+*********************************
+GAP Atualizado:21.1227
+LI Atual      : 480.643
+LS Atual      : 609.355
+ Tempo(parcial): 15637
+Total de Nos  : 292
+*********************************
+*********************************
+GAP Atualizado:21.1196
+LI Atual      : 480.662
+LS Atual      : 609.355
+ Tempo(parcial): 15694
+Total de Nos  : 294
+*********************************
+*********************************
+GAP Atualizado:21.0976
+LI Atual      : 480.796
+LS Atual      : 609.355
+ Tempo(parcial): 15901
+Total de Nos  : 296
+*********************************
+*********************************
+GAP Atualizado:21.0975
+LI Atual      : 480.797
+LS Atual      : 609.355
+ Tempo(parcial): 16157
+Total de Nos  : 298
+*********************************
+*********************************
+GAP Atualizado:21.0949
+LI Atual      : 480.812
+LS Atual      : 609.355
+ Tempo(parcial): 16256
+Total de Nos  : 300
+*********************************
+*********************************
+GAP Atualizado:21.0937
+LI Atual      : 480.819
+LS Atual      : 609.355
+ Tempo(parcial): 16351
+Total de Nos  : 302
+*********************************
+*********************************
+GAP Atualizado:21.0877
+LI Atual      : 480.856
+LS Atual      : 609.355
+ Tempo(parcial): 16452
+Total de Nos  : 304
+*********************************
+*********************************
+GAP Atualizado:21.0857
+LI Atual      : 480.868
+LS Atual      : 609.355
+ Tempo(parcial): 16532
+Total de Nos  : 306
+*********************************
+*********************************
+GAP Atualizado:21.0777
+LI Atual      : 480.917
+LS Atual      : 609.355
+ Tempo(parcial): 16850
+Total de Nos  : 308
+*********************************
+*********************************
+GAP Atualizado:21.0519
+LI Atual      : 481.074
+LS Atual      : 609.355
+ Tempo(parcial): 16954
+Total de Nos  : 310
+*********************************
+*********************************
+GAP Atualizado:21.0463
+LI Atual      : 481.108
+LS Atual      : 609.355
+ Tempo(parcial): 17102
+Total de Nos  : 312
+*********************************
+*********************************
+GAP Atualizado:21.0413
+LI Atual      : 481.139
+LS Atual      : 609.355
+ Tempo(parcial): 17245
+Total de Nos  : 314
+*********************************
+*********************************
+GAP Atualizado:21.0381
+LI Atual      : 481.158
+LS Atual      : 609.355
+ Tempo(parcial): 17332
+Total de Nos  : 316
+*********************************
+*********************************
+GAP Atualizado:21.0301
+LI Atual      : 481.207
+LS Atual      : 609.355
+ Tempo(parcial): 17466
+Total de Nos  : 318
+*********************************
+*********************************
+GAP Atualizado:21.0254
+LI Atual      : 481.236
+LS Atual      : 609.355
+ Tempo(parcial): 17612
+Total de Nos  : 320
+*********************************
+*********************************
+GAP Atualizado:21.0072
+LI Atual      : 481.347
+LS Atual      : 609.355
+ Tempo(parcial): 17708
+Total de Nos  : 322
+*********************************
+*********************************
+GAP Atualizado:21.0059
+LI Atual      : 481.354
+LS Atual      : 609.355
+ Tempo(parcial): 17773
+Total de Nos  : 324
+*********************************
+*********************************
+GAP Atualizado:20.9965
+LI Atual      : 481.412
+LS Atual      : 609.355
+ Tempo(parcial): 17898
+Total de Nos  : 326
+*********************************
+*********************************
+GAP Atualizado:20.9752
+LI Atual      : 481.542
+LS Atual      : 609.355
+ Tempo(parcial): 18079
+Total de Nos  : 328
+*********************************
+*********************************
+GAP Atualizado:20.9567
+LI Atual      : 481.654
+LS Atual      : 609.355
+ Tempo(parcial): 18164
+Total de Nos  : 330
+*********************************
+*********************************
+GAP Atualizado:20.9313
+LI Atual      : 481.809
+LS Atual      : 609.355
+ Tempo(parcial): 18247
+Total de Nos  : 332
+*********************************
+*********************************
+GAP Atualizado:20.9272
+LI Atual      : 481.834
+LS Atual      : 609.355
+ Tempo(parcial): 18391
+Total de Nos  : 334
+*********************************
+*********************************
+GAP Atualizado:20.9232
+LI Atual      : 481.858
+LS Atual      : 609.355
+ Tempo(parcial): 18514
+Total de Nos  : 336
+*********************************
+*********************************
+GAP Atualizado:20.9087
+LI Atual      : 481.947
+LS Atual      : 609.355
+ Tempo(parcial): 18659
+Total de Nos  : 338
+*********************************
+*********************************
+GAP Atualizado:20.881
+LI Atual      : 482.116
+LS Atual      : 609.355
+ Tempo(parcial): 18824
+Total de Nos  : 340
+*********************************
+*********************************
+GAP Atualizado:20.8755
+LI Atual      : 482.149
+LS Atual      : 609.355
+ Tempo(parcial): 19038
+Total de Nos  : 342
+*********************************
+*********************************
+GAP Atualizado:20.8654
+LI Atual      : 482.211
+LS Atual      : 609.355
+ Tempo(parcial): 19145
+Total de Nos  : 344
+*********************************
+*********************************
+GAP Atualizado:20.862
+LI Atual      : 482.232
+LS Atual      : 609.355
+ Tempo(parcial): 19258
+Total de Nos  : 346
+*********************************
+*********************************
+GAP Atualizado:20.8615
+LI Atual      : 482.234
+LS Atual      : 609.355
+ Tempo(parcial): 19374
+Total de Nos  : 348
+*********************************
+*********************************
+GAP Atualizado:20.8423
+LI Atual      : 482.352
+LS Atual      : 609.355
+ Tempo(parcial): 19508
+Total de Nos  : 350
+*********************************
+*********************************
+GAP Atualizado:20.8265
+LI Atual      : 482.448
+LS Atual      : 609.355
+ Tempo(parcial): 19626
+Total de Nos  : 352
+*********************************
+*********************************
+GAP Atualizado:20.7837
+LI Atual      : 482.709
+LS Atual      : 609.355
+ Tempo(parcial): 19723
+Total de Nos  : 354
+*********************************
+*********************************
+GAP Atualizado:20.7793
+LI Atual      : 482.736
+LS Atual      : 609.355
+ Tempo(parcial): 19842
+Total de Nos  : 356
+*********************************
+*********************************
+GAP Atualizado:20.769
+LI Atual      : 482.798
+LS Atual      : 609.355
+ Tempo(parcial): 19987
+Total de Nos  : 358
+*********************************
+*********************************
+GAP Atualizado:20.7609
+LI Atual      : 482.848
+LS Atual      : 609.355
+ Tempo(parcial): 20284
+Total de Nos  : 362
+*********************************
+*********************************
+GAP Atualizado:20.7456
+LI Atual      : 482.941
+LS Atual      : 609.355
+ Tempo(parcial): 20381
+Total de Nos  : 364
+*********************************
+*********************************
+GAP Atualizado:20.7354
+LI Atual      : 483.003
+LS Atual      : 609.355
+ Tempo(parcial): 20622
+Total de Nos  : 368
+*********************************
+*********************************
+GAP Atualizado:20.7331
+LI Atual      : 483.017
+LS Atual      : 609.355
+ Tempo(parcial): 20787
+Total de Nos  : 370
+*********************************
+*********************************
+GAP Atualizado:20.7322
+LI Atual      : 483.022
+LS Atual      : 609.355
+ Tempo(parcial): 20887
+Total de Nos  : 372
+*********************************
+*********************************
+GAP Atualizado:20.7278
+LI Atual      : 483.049
+LS Atual      : 609.355
+ Tempo(parcial): 20989
+Total de Nos  : 374
+*********************************
+*********************************
+GAP Atualizado:20.7221
+LI Atual      : 483.084
+LS Atual      : 609.355
+ Tempo(parcial): 21163
+Total de Nos  : 376
+*********************************
+*********************************
+GAP Atualizado:20.7128
+LI Atual      : 483.141
+LS Atual      : 609.355
+ Tempo(parcial): 21251
+Total de Nos  : 378
+*********************************
+*********************************
+GAP Atualizado:20.6936
+LI Atual      : 483.258
+LS Atual      : 609.355
+ Tempo(parcial): 21466
+Total de Nos  : 380
+*********************************
+*********************************
+GAP Atualizado:20.6923
+LI Atual      : 483.266
+LS Atual      : 609.355
+ Tempo(parcial): 21616
+Total de Nos  : 382
+*********************************
+*********************************
+GAP Atualizado:20.6885
+LI Atual      : 483.288
+LS Atual      : 609.355
+ Tempo(parcial): 21784
+Total de Nos  : 384
+*********************************
+*********************************
+GAP Atualizado:20.6869
+LI Atual      : 483.298
+LS Atual      : 609.355
+ Tempo(parcial): 21938
+Total de Nos  : 386
+*********************************
+*********************************
+GAP Atualizado:20.6841
+LI Atual      : 483.316
+LS Atual      : 609.355
+ Tempo(parcial): 22045
+Total de Nos  : 388
+*********************************
+*********************************
+GAP Atualizado:20.6605
+LI Atual      : 483.459
+LS Atual      : 609.355
+ Tempo(parcial): 22147
+Total de Nos  : 390
+*********************************
+*********************************
+GAP Atualizado:20.6439
+LI Atual      : 483.561
+LS Atual      : 609.355
+ Tempo(parcial): 22279
+Total de Nos  : 392
+*********************************
+*********************************
+GAP Atualizado:20.6431
+LI Atual      : 483.566
+LS Atual      : 609.355
+ Tempo(parcial): 22400
+Total de Nos  : 394
+*********************************
+*********************************
+GAP Atualizado:20.6402
+LI Atual      : 483.583
+LS Atual      : 609.355
+ Tempo(parcial): 22515
+Total de Nos  : 396
+*********************************
+*********************************
+GAP Atualizado:20.6393
+LI Atual      : 483.588
+LS Atual      : 609.355
+ Tempo(parcial): 22652
+Total de Nos  : 398
+*********************************
+*********************************
+GAP Atualizado:20.638
+LI Atual      : 483.596
+LS Atual      : 609.355
+ Tempo(parcial): 22750
+Total de Nos  : 400
+*********************************
+*********************************
+GAP Atualizado:20.6359
+LI Atual      : 483.609
+LS Atual      : 609.355
+ Tempo(parcial): 22852
+Total de Nos  : 402
+*********************************
+*********************************
+GAP Atualizado:20.6319
+LI Atual      : 483.633
+LS Atual      : 609.355
+ Tempo(parcial): 22975
+Total de Nos  : 404
+*********************************
+*********************************
+GAP Atualizado:20.6294
+LI Atual      : 483.649
+LS Atual      : 609.355
+ Tempo(parcial): 23140
+Total de Nos  : 406
+*********************************
+*********************************
+GAP Atualizado:20.6262
+LI Atual      : 483.668
+LS Atual      : 609.355
+ Tempo(parcial): 23321
+Total de Nos  : 408
+*********************************
+*********************************
+GAP Atualizado:20.622
+LI Atual      : 483.694
+LS Atual      : 609.355
+ Tempo(parcial): 23423
+Total de Nos  : 410
+*********************************
+*********************************
+GAP Atualizado:20.6185
+LI Atual      : 483.715
+LS Atual      : 609.355
+ Tempo(parcial): 23540
+Total de Nos  : 412
+*********************************
+*********************************
+GAP Atualizado:20.6174
+LI Atual      : 483.722
+LS Atual      : 609.355
+ Tempo(parcial): 23820
+Total de Nos  : 416
+*********************************
+*********************************
+GAP Atualizado:20.6037
+LI Atual      : 483.806
+LS Atual      : 609.355
+ Tempo(parcial): 23923
+Total de Nos  : 418
+*********************************
+*********************************
+GAP Atualizado:20.5978
+LI Atual      : 483.841
+LS Atual      : 609.355
+ Tempo(parcial): 24072
+Total de Nos  : 420
+*********************************
+*********************************
+GAP Atualizado:20.5951
+LI Atual      : 483.858
+LS Atual      : 609.355
+ Tempo(parcial): 24168
+Total de Nos  : 422
+*********************************
+*********************************
+GAP Atualizado:20.5943
+LI Atual      : 483.862
+LS Atual      : 609.355
+ Tempo(parcial): 24278
+Total de Nos  : 424
+*********************************
+*********************************
+GAP Atualizado:20.5891
+LI Atual      : 483.894
+LS Atual      : 609.355
+ Tempo(parcial): 24390
+Total de Nos  : 426
+*********************************
+*********************************
+GAP Atualizado:20.5871
+LI Atual      : 483.907
+LS Atual      : 609.355
+ Tempo(parcial): 24549
+Total de Nos  : 428
+*********************************
+*********************************
+GAP Atualizado:20.5848
+LI Atual      : 483.92
+LS Atual      : 609.355
+ Tempo(parcial): 24708
+Total de Nos  : 430
+*********************************
+*********************************
+GAP Atualizado:20.5841
+LI Atual      : 483.925
+LS Atual      : 609.355
+ Tempo(parcial): 24925
+Total de Nos  : 432
+*********************************
+*********************************
+GAP Atualizado:20.5695
+LI Atual      : 484.014
+LS Atual      : 609.355
+ Tempo(parcial): 25255
+Total de Nos  : 436
+*********************************
+*********************************
+GAP Atualizado:20.5695
+LI Atual      : 484.014
+LS Atual      : 609.355
+ Tempo(parcial): 25358
+Total de Nos  : 438
+*********************************
+*********************************
+GAP Atualizado:20.5651
+LI Atual      : 484.04
+LS Atual      : 609.355
+ Tempo(parcial): 25472
+Total de Nos  : 440
+*********************************
+*********************************
+GAP Atualizado:20.5649
+LI Atual      : 484.042
+LS Atual      : 609.355
+ Tempo(parcial): 25652
+Total de Nos  : 442
+*********************************
+*********************************
+GAP Atualizado:20.5627
+LI Atual      : 484.055
+LS Atual      : 609.355
+ Tempo(parcial): 25864
+Total de Nos  : 444
+*********************************
+*********************************
+GAP Atualizado:20.5621
+LI Atual      : 484.059
+LS Atual      : 609.355
+ Tempo(parcial): 26025
+Total de Nos  : 446
+*********************************
+*********************************
+GAP Atualizado:20.5553
+LI Atual      : 484.1
+LS Atual      : 609.355
+ Tempo(parcial): 26192
+Total de Nos  : 448
+*********************************
+*********************************
+GAP Atualizado:20.5524
+LI Atual      : 484.118
+LS Atual      : 609.355
+ Tempo(parcial): 26334
+Total de Nos  : 450
+*********************************
+*********************************
+GAP Atualizado:20.5492
+LI Atual      : 484.138
+LS Atual      : 609.355
+ Tempo(parcial): 26484
+Total de Nos  : 452
+*********************************
+*********************************
+GAP Atualizado:20.5487
+LI Atual      : 484.141
+LS Atual      : 609.355
+ Tempo(parcial): 26608
+Total de Nos  : 454
+*********************************
+*********************************
+GAP Atualizado:20.5474
+LI Atual      : 484.148
+LS Atual      : 609.355
+ Tempo(parcial): 26727
+Total de Nos  : 456
+*********************************
+*********************************
+GAP Atualizado:20.5467
+LI Atual      : 484.153
+LS Atual      : 609.355
+ Tempo(parcial): 26766
+Total de Nos  : 458
+*********************************
+*********************************
+GAP Atualizado:20.5457
+LI Atual      : 484.159
+LS Atual      : 609.355
+ Tempo(parcial): 26887
+Total de Nos  : 460
+*********************************
+*********************************
+GAP Atualizado:20.5442
+LI Atual      : 484.168
+LS Atual      : 609.355
+ Tempo(parcial): 26984
+Total de Nos  : 462
+*********************************
+*********************************
+GAP Atualizado:20.5441
+LI Atual      : 484.168
+LS Atual      : 609.355
+ Tempo(parcial): 27140
+Total de Nos  : 464
+*********************************
+*********************************
+GAP Atualizado:20.5418
+LI Atual      : 484.183
+LS Atual      : 609.355
+ Tempo(parcial): 27224
+Total de Nos  : 466
+*********************************
+*********************************
+GAP Atualizado:20.5411
+LI Atual      : 484.187
+LS Atual      : 609.355
+ Tempo(parcial): 27400
+Total de Nos  : 468
+*********************************
+*********************************
+GAP Atualizado:20.5401
+LI Atual      : 484.193
+LS Atual      : 609.355
+ Tempo(parcial): 27530
+Total de Nos  : 470
+*********************************
+*********************************
+GAP Atualizado:20.5401
+LI Atual      : 484.193
+LS Atual      : 609.355
+ Tempo(parcial): 27664
+Total de Nos  : 472
+*********************************
+*********************************
+GAP Atualizado:20.5396
+LI Atual      : 484.196
+LS Atual      : 609.355
+ Tempo(parcial): 27917
+Total de Nos  : 476
+*********************************
+*********************************
+GAP Atualizado:20.5393
+LI Atual      : 484.198
+LS Atual      : 609.355
+ Tempo(parcial): 27966
+Total de Nos  : 478
+*********************************
+*********************************
+GAP Atualizado:20.5355
+LI Atual      : 484.221
+LS Atual      : 609.355
+ Tempo(parcial): 28101
+Total de Nos  : 480
+*********************************
+*********************************
+GAP Atualizado:20.5351
+LI Atual      : 484.223
+LS Atual      : 609.355
+ Tempo(parcial): 28227
+Total de Nos  : 482
+*********************************
+*********************************
+GAP Atualizado:20.5319
+LI Atual      : 484.243
+LS Atual      : 609.355
+ Tempo(parcial): 28278
+Total de Nos  : 484
+*********************************
+*********************************
+GAP Atualizado:20.5301
+LI Atual      : 484.254
+LS Atual      : 609.355
+ Tempo(parcial): 28388
+Total de Nos  : 486
+*********************************
+*********************************
+GAP Atualizado:20.5281
+LI Atual      : 484.266
+LS Atual      : 609.355
+ Tempo(parcial): 28485
+Total de Nos  : 488
+*********************************
+*********************************
+GAP Atualizado:20.5192
+LI Atual      : 484.32
+LS Atual      : 609.355
+ Tempo(parcial): 28624
+Total de Nos  : 490
+*********************************
+*********************************
+GAP Atualizado:20.5182
+LI Atual      : 484.327
+LS Atual      : 609.355
+ Tempo(parcial): 28796
+Total de Nos  : 492
+*********************************
+*********************************
+GAP Atualizado:20.518
+LI Atual      : 484.328
+LS Atual      : 609.355
+ Tempo(parcial): 29242
+Total de Nos  : 496
+*********************************
+*********************************
+GAP Atualizado:20.5175
+LI Atual      : 484.331
+LS Atual      : 609.355
+ Tempo(parcial): 29362
+Total de Nos  : 498
+*********************************
+*********************************
+GAP Atualizado:20.5159
+LI Atual      : 484.34
+LS Atual      : 609.355
+ Tempo(parcial): 29647
+Total de Nos  : 502
+*********************************
+*********************************
+GAP Atualizado:20.5146
+LI Atual      : 484.348
+LS Atual      : 609.355
+ Tempo(parcial): 29828
+Total de Nos  : 504
+*********************************
+*********************************
+GAP Atualizado:20.5132
+LI Atual      : 484.357
+LS Atual      : 609.355
+ Tempo(parcial): 30077
+Total de Nos  : 508
+*********************************
+*********************************
+GAP Atualizado:20.5118
+LI Atual      : 484.365
+LS Atual      : 609.355
+ Tempo(parcial): 30181
+Total de Nos  : 510
+*********************************
+*********************************
+GAP Atualizado:20.5108
+LI Atual      : 484.372
+LS Atual      : 609.355
+ Tempo(parcial): 30368
+Total de Nos  : 512
+*********************************
+*********************************
+GAP Atualizado:20.5105
+LI Atual      : 484.373
+LS Atual      : 609.355
+ Tempo(parcial): 30516
+Total de Nos  : 514
+*********************************
+*********************************
+GAP Atualizado:20.5057
+LI Atual      : 484.402
+LS Atual      : 609.355
+ Tempo(parcial): 30701
+Total de Nos  : 518
+*********************************
+*********************************
+GAP Atualizado:20.5048
+LI Atual      : 484.408
+LS Atual      : 609.355
+ Tempo(parcial): 30832
+Total de Nos  : 520
+*********************************
+*********************************
+GAP Atualizado:20.5028
+LI Atual      : 484.42
+LS Atual      : 609.355
+ Tempo(parcial): 31108
+Total de Nos  : 524
+*********************************
+*********************************
+GAP Atualizado:20.5019
+LI Atual      : 484.426
+LS Atual      : 609.355
+ Tempo(parcial): 31190
+Total de Nos  : 526
+*********************************
+*********************************
+GAP Atualizado:20.5009
+LI Atual      : 484.432
+LS Atual      : 609.355
+ Tempo(parcial): 31390
+Total de Nos  : 528
+*********************************
+*********************************
+GAP Atualizado:20.5006
+LI Atual      : 484.434
+LS Atual      : 609.355
+ Tempo(parcial): 31692
+Total de Nos  : 530
+*********************************
+*********************************
+GAP Atualizado:20.4972
+LI Atual      : 484.454
+LS Atual      : 609.355
+ Tempo(parcial): 31746
+Total de Nos  : 532
+*********************************
+*********************************
+GAP Atualizado:20.4948
+LI Atual      : 484.469
+LS Atual      : 609.355
+ Tempo(parcial): 31943
+Total de Nos  : 534
+*********************************
+*********************************
+GAP Atualizado:20.4936
+LI Atual      : 484.477
+LS Atual      : 609.355
+ Tempo(parcial): 32075
+Total de Nos  : 536
+*********************************
+*********************************
+GAP Atualizado:20.4892
+LI Atual      : 484.503
+LS Atual      : 609.355
+ Tempo(parcial): 32223
+Total de Nos  : 538
+*********************************
+*********************************
+GAP Atualizado:20.4881
+LI Atual      : 484.51
+LS Atual      : 609.355
+ Tempo(parcial): 32462
+Total de Nos  : 540
+*********************************
+*********************************
+GAP Atualizado:20.4874
+LI Atual      : 484.514
+LS Atual      : 609.355
+ Tempo(parcial): 32561
+Total de Nos  : 542
+*********************************
+*********************************
+GAP Atualizado:20.4841
+LI Atual      : 484.534
+LS Atual      : 609.355
+ Tempo(parcial): 32850
+Total de Nos  : 546
+*********************************
+*********************************
+GAP Atualizado:20.479
+LI Atual      : 484.565
+LS Atual      : 609.355
+ Tempo(parcial): 33427
+Total de Nos  : 554
+*********************************
+*********************************
+GAP Atualizado:20.476
+LI Atual      : 484.584
+LS Atual      : 609.355
+ Tempo(parcial): 33513
+Total de Nos  : 556
+*********************************
+*********************************
+GAP Atualizado:20.4755
+LI Atual      : 484.587
+LS Atual      : 609.355
+ Tempo(parcial): 33685
+Total de Nos  : 558
+*********************************
+*********************************
+GAP Atualizado:20.4728
+LI Atual      : 484.603
+LS Atual      : 609.355
+ Tempo(parcial): 33873
+Total de Nos  : 560
+*********************************
+*********************************
+GAP Atualizado:20.4716
+LI Atual      : 484.611
+LS Atual      : 609.355
+ Tempo(parcial): 34113
+Total de Nos  : 562
+*********************************
+*********************************
+GAP Atualizado:20.4685
+LI Atual      : 484.629
+LS Atual      : 609.355
+ Tempo(parcial): 34247
+Total de Nos  : 564
+*********************************
+*********************************
+GAP Atualizado:20.4589
+LI Atual      : 484.688
+LS Atual      : 609.355
+ Tempo(parcial): 34398
+Total de Nos  : 566
+*********************************
+*********************************
+GAP Atualizado:20.458
+LI Atual      : 484.693
+LS Atual      : 609.355
+ Tempo(parcial): 34472
+Total de Nos  : 568
+*********************************
+*********************************
+GAP Atualizado:20.4563
+LI Atual      : 484.704
+LS Atual      : 609.355
+ Tempo(parcial): 34644
+Total de Nos  : 570
+*********************************
+*********************************
+GAP Atualizado:20.455
+LI Atual      : 484.711
+LS Atual      : 609.355
+ Tempo(parcial): 34758
+Total de Nos  : 572
+*********************************
+*********************************
+GAP Atualizado:20.4515
+LI Atual      : 484.733
+LS Atual      : 609.355
+ Tempo(parcial): 34890
+Total de Nos  : 574
+*********************************
+*********************************
+GAP Atualizado:20.4515
+LI Atual      : 484.733
+LS Atual      : 609.355
+ Tempo(parcial): 35008
+Total de Nos  : 576
+*********************************
+*********************************
+GAP Atualizado:20.4513
+LI Atual      : 484.734
+LS Atual      : 609.355
+ Tempo(parcial): 35064
+Total de Nos  : 578
+*********************************
+*********************************
+GAP Atualizado:20.4506
+LI Atual      : 484.738
+LS Atual      : 609.355
+ Tempo(parcial): 35198
+Total de Nos  : 580
+*********************************
+*********************************
+GAP Atualizado:20.4488
+LI Atual      : 484.749
+LS Atual      : 609.355
+ Tempo(parcial): 35569
+Total de Nos  : 586
+*********************************
+*********************************
+GAP Atualizado:20.4455
+LI Atual      : 484.769
+LS Atual      : 609.355
+ Tempo(parcial): 35649
+Total de Nos  : 588
+*********************************
+*********************************
+GAP Atualizado:20.4425
+LI Atual      : 484.788
+LS Atual      : 609.355
+ Tempo(parcial): 35769
+Total de Nos  : 590
+*********************************
+*********************************
+GAP Atualizado:20.4414
+LI Atual      : 484.794
+LS Atual      : 609.355
+ Tempo(parcial): 35855
+Total de Nos  : 592
+*********************************
+*********************************
+GAP Atualizado:20.4372
+LI Atual      : 484.82
+LS Atual      : 609.355
+ Tempo(parcial): 35963
+Total de Nos  : 594
+*********************************
+*********************************
+GAP Atualizado:20.4371
+LI Atual      : 484.82
+LS Atual      : 609.355
+ Tempo(parcial): 36295
+Total de Nos  : 598
+*********************************
+*********************************
+GAP Atualizado:20.4368
+LI Atual      : 484.822
+LS Atual      : 609.355
+ Tempo(parcial): 36419
+Total de Nos  : 600
+*********************************
+*********************************
+GAP Atualizado:20.4363
+LI Atual      : 484.826
+LS Atual      : 609.355
+ Tempo(parcial): 36492
+Total de Nos  : 602
+*********************************
+*********************************
+GAP Atualizado:20.4302
+LI Atual      : 484.863
+LS Atual      : 609.355
+ Tempo(parcial): 36658
+Total de Nos  : 604
+*********************************
+*********************************
+GAP Atualizado:20.4298
+LI Atual      : 484.865
+LS Atual      : 609.355
+ Tempo(parcial): 36778
+Total de Nos  : 606
+*********************************
+*********************************
+GAP Atualizado:20.4297
+LI Atual      : 484.866
+LS Atual      : 609.355
+ Tempo(parcial): 36936
+Total de Nos  : 608
+*********************************
+*********************************
+GAP Atualizado:20.4293
+LI Atual      : 484.868
+LS Atual      : 609.355
+ Tempo(parcial): 37149
+Total de Nos  : 612
+*********************************
+*********************************
+GAP Atualizado:20.4267
+LI Atual      : 484.884
+LS Atual      : 609.355
+ Tempo(parcial): 37237
+Total de Nos  : 614
+*********************************
+*********************************
+GAP Atualizado:20.4255
+LI Atual      : 484.891
+LS Atual      : 609.355
+ Tempo(parcial): 37405
+Total de Nos  : 616
+*********************************
+*********************************
+GAP Atualizado:20.424
+LI Atual      : 484.9
+LS Atual      : 609.355
+ Tempo(parcial): 37493
+Total de Nos  : 618
+*********************************
+*********************************
+GAP Atualizado:20.4222
+LI Atual      : 484.911
+LS Atual      : 609.355
+ Tempo(parcial): 37792
+Total de Nos  : 622
+*********************************
+*********************************
+GAP Atualizado:20.4209
+LI Atual      : 484.919
+LS Atual      : 609.355
+ Tempo(parcial): 37968
+Total de Nos  : 624
+*********************************
+*********************************
+GAP Atualizado:20.4187
+LI Atual      : 484.933
+LS Atual      : 609.355
+ Tempo(parcial): 38117
+Total de Nos  : 626
+*********************************
+*********************************
+GAP Atualizado:20.4187
+LI Atual      : 484.933
+LS Atual      : 609.355
+ Tempo(parcial): 38236
+Total de Nos  : 628
+*********************************
+*********************************
+GAP Atualizado:20.4177
+LI Atual      : 484.939
+LS Atual      : 609.355
+ Tempo(parcial): 38385
+Total de Nos  : 630
+*********************************
+*********************************
+GAP Atualizado:20.4174
+LI Atual      : 484.94
+LS Atual      : 609.355
+ Tempo(parcial): 38564
+Total de Nos  : 632
+*********************************
+*********************************
+GAP Atualizado:20.4141
+LI Atual      : 484.961
+LS Atual      : 609.355
+ Tempo(parcial): 38720
+Total de Nos  : 634
+*********************************
+*********************************
+GAP Atualizado:20.4133
+LI Atual      : 484.966
+LS Atual      : 609.355
+ Tempo(parcial): 38881
+Total de Nos  : 636
+*********************************
+*********************************
+GAP Atualizado:20.4131
+LI Atual      : 484.967
+LS Atual      : 609.355
+ Tempo(parcial): 39104
+Total de Nos  : 638
+*********************************
+*********************************
+GAP Atualizado:20.4112
+LI Atual      : 484.978
+LS Atual      : 609.355
+ Tempo(parcial): 39210
+Total de Nos  : 640
+*********************************
+*********************************
+GAP Atualizado:20.4102
+LI Atual      : 484.984
+LS Atual      : 609.355
+ Tempo(parcial): 39385
+Total de Nos  : 642
+*********************************
+*********************************
+GAP Atualizado:20.4039
+LI Atual      : 485.023
+LS Atual      : 609.355
+ Tempo(parcial): 39518
+Total de Nos  : 644
+*********************************
+*********************************
+GAP Atualizado:20.4014
+LI Atual      : 485.038
+LS Atual      : 609.355
+ Tempo(parcial): 39619
+Total de Nos  : 646
+*********************************
+*********************************
+GAP Atualizado:20.3994
+LI Atual      : 485.05
+LS Atual      : 609.355
+ Tempo(parcial): 40165
+Total de Nos  : 654
+*********************************
+*********************************
+GAP Atualizado:20.3989
+LI Atual      : 485.053
+LS Atual      : 609.355
+ Tempo(parcial): 40553
+Total de Nos  : 660
+*********************************
+*********************************
+GAP Atualizado:20.3984
+LI Atual      : 485.057
+LS Atual      : 609.355
+ Tempo(parcial): 40700
+Total de Nos  : 662
+*********************************
+*********************************
+GAP Atualizado:20.3979
+LI Atual      : 485.059
+LS Atual      : 609.355
+ Tempo(parcial): 40865
+Total de Nos  : 664
+*********************************
+*********************************
+GAP Atualizado:20.3978
+LI Atual      : 485.06
+LS Atual      : 609.355
+ Tempo(parcial): 40946
+Total de Nos  : 666
+*********************************
+*********************************
+GAP Atualizado:20.3972
+LI Atual      : 485.064
+LS Atual      : 609.355
+ Tempo(parcial): 41265
+Total de Nos  : 672
+*********************************
+*********************************
+GAP Atualizado:20.3971
+LI Atual      : 485.064
+LS Atual      : 609.355
+ Tempo(parcial): 41404
+Total de Nos  : 674
+*********************************
+*********************************
+GAP Atualizado:20.3961
+LI Atual      : 485.07
+LS Atual      : 609.355
+ Tempo(parcial): 41667
+Total de Nos  : 676
+*********************************
+*********************************
+GAP Atualizado:20.3926
+LI Atual      : 485.091
+LS Atual      : 609.355
+ Tempo(parcial): 41871
+Total de Nos  : 678
+*********************************
+*********************************
+GAP Atualizado:20.3924
+LI Atual      : 485.093
+LS Atual      : 609.355
+ Tempo(parcial): 41948
+Total de Nos  : 680
+*********************************
+*********************************
+GAP Atualizado:20.3904
+LI Atual      : 485.105
+LS Atual      : 609.355
+ Tempo(parcial): 42105
+Total de Nos  : 682
+*********************************
+*********************************
+GAP Atualizado:20.39
+LI Atual      : 485.107
+LS Atual      : 609.355
+ Tempo(parcial): 42221
+Total de Nos  : 684
+*********************************
+*********************************
+GAP Atualizado:20.3894
+LI Atual      : 485.111
+LS Atual      : 609.355
+ Tempo(parcial): 42276
+Total de Nos  : 686
+*********************************
+*********************************
+GAP Atualizado:20.3882
+LI Atual      : 485.118
+LS Atual      : 609.355
+ Tempo(parcial): 42329
+Total de Nos  : 688
+*********************************
+*********************************
+GAP Atualizado:20.388
+LI Atual      : 485.119
+LS Atual      : 609.355
+ Tempo(parcial): 42368
+Total de Nos  : 690
+*********************************
+*********************************
+GAP Atualizado:20.386
+LI Atual      : 485.132
+LS Atual      : 609.355
+ Tempo(parcial): 42471
+Total de Nos  : 692
+*********************************
+*********************************
+GAP Atualizado:20.3833
+LI Atual      : 485.148
+LS Atual      : 609.355
+ Tempo(parcial): 42604
+Total de Nos  : 694
+*********************************

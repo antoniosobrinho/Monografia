@@ -1,0 +1,4 @@
+Solucao inteira encontrada!
+Total de Nós: 81
+Valor LS: 1131.91
+Tempo Busca Prof: 4621

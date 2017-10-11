@@ -1,0 +1,5 @@
+Status da solucao: Feasible
+ Funcao Objetivo: 262025
+Tempo com Sol CPLEX: (segundos): 19180
+GAP: 0.998701
+Best Bound: 340.429

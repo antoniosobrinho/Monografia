@@ -1,0 +1,3 @@
+Status da solucao: Feasible
+ Funcao Objetivo: 11304.4
+Tempo para obter a solucao (segundos): 1625

@@ -1,0 +1,119 @@
+*********************************
+GAP Atualizado:94.5842
+LI Atual      : 612.225
+LS Atual      : 11304.4
+ Tempo(parcial): 452
+Total de Nos  : 2
+*********************************
+*********************************
+GAP Atualizado:94.5823
+LI Atual      : 612.435
+LS Atual      : 11304.4
+ Tempo(parcial): 626
+Total de Nos  : 4
+*********************************
+*********************************
+GAP Atualizado:94.5781
+LI Atual      : 612.913
+LS Atual      : 11304.4
+ Tempo(parcial): 817
+Total de Nos  : 6
+*********************************
+**************** ***********
+Primeira solucao Inteira!!!!!
+Novo FO(LS): 773.202
+Total de nos na arvore: 322
+Branch and Price Tempo(parcial): 39764
+LI Atual: 612.913
+Gap Integralidade: 20.7306
+**************** ***********
+*** Encontrado novo LS!! ****
+LI Atual: 612.913
+Novo LS: 773.202
+Gap Integralidade: 20.7306
+Total de Nos: 322
+Branch and Price Tempo(parcial): 39764
+**************** ***********
+*********************************
+GAP Atualizado:20.5803
+LI Atual      : 614.075
+LS Atual      : 773.202
+ Tempo(parcial): 40196
+Total de Nos  : 326
+*********************************
+*********************************
+GAP Atualizado:20.4682
+LI Atual      : 614.941
+LS Atual      : 773.202
+ Tempo(parcial): 40644
+Total de Nos  : 330
+*********************************
+*********************************
+GAP Atualizado:20.4573
+LI Atual      : 615.026
+LS Atual      : 773.202
+ Tempo(parcial): 41106
+Total de Nos  : 334
+*********************************
+*********************************
+GAP Atualizado:20.3147
+LI Atual      : 616.129
+LS Atual      : 773.202
+ Tempo(parcial): 41668
+Total de Nos  : 338
+*********************************
+*********************************
+GAP Atualizado:20.3036
+LI Atual      : 616.214
+LS Atual      : 773.202
+ Tempo(parcial): 41916
+Total de Nos  : 340
+*********************************
+*********************************
+GAP Atualizado:20.2779
+LI Atual      : 616.413
+LS Atual      : 773.202
+ Tempo(parcial): 42101
+Total de Nos  : 342
+*********************************
+*********************************
+GAP Atualizado:20.218
+LI Atual      : 616.876
+LS Atual      : 773.202
+ Tempo(parcial): 42294
+Total de Nos  : 344
+*********************************
+*********************************
+GAP Atualizado:20.2154
+LI Atual      : 616.896
+LS Atual      : 773.202
+ Tempo(parcial): 42527
+Total de Nos  : 346
+*********************************
+*********************************
+GAP Atualizado:20.207
+LI Atual      : 616.961
+LS Atual      : 773.202
+ Tempo(parcial): 42733
+Total de Nos  : 348
+*********************************
+*********************************
+GAP Atualizado:20.2044
+LI Atual      : 616.981
+LS Atual      : 773.202
+ Tempo(parcial): 42937
+Total de Nos  : 350
+*********************************
+*********************************
+GAP Atualizado:20.1659
+LI Atual      : 617.279
+LS Atual      : 773.202
+ Tempo(parcial): 43213
+Total de Nos  : 352
+*********************************
+Tempo Branch Price Esgotado!43213
+---- Limite Superior: Best Bound******
+No selecionado: 351
+Valor de FO: 617.279
+Valor de LI: 617.279
+Limite Superior Best_Bound: 1929.78

@@ -1,0 +1,17 @@
+ Parametros do Processo: (Versao Nova!!) 
+Numero de bercos de atracacao: 2
+Produtos : 10
+Periodos: 20
+Numero de Micro Periodos: 12
+Capacidade do micro: 1
+Custo do micro: 0
+Custo em nao atender navio: 0.001
+Custo da Recepcao : 2
+Custo do Patio: 10
+Custo Pier 1: 10
+Custo Pier 2: 50
+Modo : Integrado ou Nao (Planejamento): 1
+Modo (cplex, rel, G. Colunas): 6
+Modo de Busca: 8
+Limite Superior Inicial: 613.56
+Flag LS_OTIMO: 0

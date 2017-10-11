@@ -1,0 +1,27 @@
+*********************************
+GAP Atualizado:39.9108
+LI Atual      : 680.156
+LS Atual      : 1131.91
+ Tempo(parcial): 686
+Total de Nos  : 2
+*********************************
+*********************************
+GAP Atualizado:39.8664
+LI Atual      : 680.659
+LS Atual      : 1131.91
+ Tempo(parcial): 1331
+Total de Nos  : 4
+*********************************
+*********************************
+GAP Atualizado:39.85
+LI Atual      : 680.844
+LS Atual      : 1131.91
+ Tempo(parcial): 1810
+Total de Nos  : 6
+*********************************
+Tempo Branch Price Esgotado!43524
+---- Limite Superior: Best Bound******
+No selecionado: 2
+Valor de FO: 680.844
+Valor de LI: 680.844
+Limite Superior Best_Bound: 3113.63
