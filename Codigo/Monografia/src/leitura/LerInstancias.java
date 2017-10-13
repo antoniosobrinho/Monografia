@@ -15,7 +15,7 @@ public class LerInstancias {
 	private String diretorio;
 	private Integer[][] estoquesSubarea;
 	private	ArrayList<Integer>[] produtosSubarea,  rotasEquipamentos;
-	private Integer[] capacidadeEquipamentos;
+	private Integer[] capacidadeEquipamentos, produtos;
 	private ArrayList<Navio>[] naviosPeriodo;
 	private HashMap<Integer,Integer>[] chegadaProdutos;
 	private int numSubareas, numEquipamentos, numPeriodos, numRotas;
@@ -56,7 +56,7 @@ public class LerInstancias {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ProdutosSubarea.txt"));
 			
 			ArrayList<Integer>[] produtosSubarea = (ArrayList<Integer>[])new ArrayList[numSubareas];
-			
+			ArrayList<Integer> produtos = new ArrayList<Integer>();
 			int area = 0;
 			
 			int dado;
@@ -64,12 +64,18 @@ public class LerInstancias {
 				lerArq.nextInt();
 				produtosSubarea[area] = new ArrayList<Integer>();
 				while((dado = lerArq.nextInt())!=-1) {
+					if(!produtos.contains(dado))
+						produtos.add(dado);
 					produtosSubarea[area].add(dado);
 				}
 				area++;
 			}
 			lerArq.close();
 			this.produtosSubarea = produtosSubarea;
+			
+			Integer[] produtosAr = new Integer[produtos.size()];
+			this.produtos = produtos.toArray(produtosAr);
+			
 		}catch (IOException e) {
 	        System.err.printf("Erro na abertura do arquivo: %s.\n",
 	                e.getMessage());
@@ -284,5 +290,9 @@ public class LerInstancias {
 	
 	public Rota[] getRotas(){
 		return rotas;
+	}
+	
+	public Integer[] getProdutos() {
+		return produtos;
 	}
 }
