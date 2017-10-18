@@ -8,14 +8,14 @@ public class Periodo {
 	//<Produto, Quantidade>
 	private HashMap<Integer, Integer> chegadaProdutos;
 
-	private ArrayList<Navio> navios;
+	private Navio[] navios;
 	
-	public ArrayList<Navio> getNavios() {
+	public Navio[] getNavios() {
 		return navios;
 	}
 
-	public void setNavios(ArrayList<Navio> navios) {
-		this.navios = navios;
+	public void setNavios(Navio[] navio) {
+		this.navios = navio;
 	}
 
 	public HashMap<Integer, Integer> getChegadaProdutos() {
