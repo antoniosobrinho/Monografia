@@ -1,11 +1,11 @@
 package dominio;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Periodo {
-
-	//<Produto, Quantidade>
+	
+	public static final int TEMPO_PERIODO = 12;
+	
 	private HashMap<Integer, Integer> chegadaProdutos;
 
 	private Navio[] navios;

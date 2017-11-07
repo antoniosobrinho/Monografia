@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -21,7 +22,7 @@ public class LerInstancias {
 	private int numSubareas, numEquipamentos, numPeriodos, numRotas;
 	private Rota[] rotas;
 	private Integer[] piers;
-	private ArrayList<Integer> produtos;
+	private ArrayList<Integer> produtos = new ArrayList<Integer>();
 	
 	public LerInstancias(String diretorio) {
 		this.diretorio = diretorio;
@@ -58,17 +59,16 @@ public class LerInstancias {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ProdutosSubarea.txt"));
 			
 			ArrayList<Integer>[] produtosSubarea = (ArrayList<Integer>[])new ArrayList[numSubareas];
-			ArrayList<Integer> produtos = new ArrayList<Integer>();
 			int area = 0;
 			
-			int dado;
+			int produto;
 			while(lerArq.hasNext()) {
 				lerArq.nextInt();
 				produtosSubarea[area] = new ArrayList<Integer>();
-				while((dado = lerArq.nextInt())!=-1) {
-					if(!produtos.contains(dado))
-						produtos.add(dado);
-					produtosSubarea[area].add(dado);
+				while((produto = lerArq.nextInt())!=-1) {
+					if(!produtos.contains(produto))
+						produtos.add(produto);
+					produtosSubarea[area].add(produto);
 				}
 				area++;
 			}
@@ -158,13 +158,13 @@ public class LerInstancias {
 			
 			HashMap<Integer, Integer>[] chegadaProdutos = (HashMap<Integer, Integer>[]) new HashMap[numPeriodos];
 			
-			int dado, periodo;
+			int produto, periodo;
 			while(lerArq.hasNext()) {
-				periodo = lerArq.nextInt();
+				periodo = lerArq.nextInt()-1;
 				chegadaProdutos[periodo] = new HashMap<Integer, Integer>();
-				while((dado = lerArq.nextInt())!=-1) {
-					if(!produtos.contains(dado)) produtos.add(dado);
-					chegadaProdutos[periodo].put(dado, lerArq.nextInt());
+				while((produto = lerArq.nextInt())!=-1) {
+					chegadaProdutos[periodo].put(produto, lerArq.nextInt());
+					if(!produtos.contains(produto)) produtos.add(produto);
 				}
 			}
 			lerArq.close();
@@ -191,9 +191,9 @@ public class LerInstancias {
 					naviosPeriodo[periodo-1] = new ArrayList<Navio>();
 				}
 				navio.setId(lerArq.nextInt());
-				navio.setPier(lerArq.nextInt());
-				if(!piers.contains(navio.getPier())){
-					piers.add(navio.getPier());
+				navio.setPier(lerArq.nextInt()-1);
+				if(!piers.contains(navio.getPier()-1)){
+					piers.add(navio.getPier()-1);
 				}
 				while((dado=lerArq.nextInt())!=-1) {
 					produtoQuantidade.put(dado, lerArq.nextInt());
@@ -295,7 +295,9 @@ public class LerInstancias {
 		return rotas;
 	}
 	
-	public ArrayList<Integer> getProdutos() {
+	public Integer[] getProdutos() {
+		Integer[] produtos = this.produtos.toArray(new Integer[this.produtos.size()]);
+		Arrays.sort(produtos);
 		return produtos;
 	}
 	

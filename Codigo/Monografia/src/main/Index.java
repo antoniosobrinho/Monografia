@@ -33,7 +33,7 @@ public class Index {
 		ArrayList<Integer>[] rotasEquipamentos = lerInstancias.getRotasEquipamentos();
 		HashMap<Integer,Integer>[] chegadaProdutos = lerInstancias.getChegadaProdutos();
 		ArrayList<Navio>[] naviosPeriodo = lerInstancias.getNaviosPeriodo();
-		ArrayList<Integer> produtos = lerInstancias.getProdutos();
+		Integer[] produtos = lerInstancias.getProdutos();
 		Integer[] piers = lerInstancias.getPiers();
 		
 		//Seta as rotas
@@ -61,7 +61,8 @@ public class Index {
 			periodos[i].setChegadaProdutos(chegadaProdutos[i]);
 			periodos[i].setNavios(naviosPeriodo[i].toArray(new Navio[naviosPeriodo[i].size()]));
 		}
-		
+	
+			
 		Otimizacao otimo = new Otimizacao(subAreas, equipamentos, periodos, rotas, produtos, piers);
 	}
 }
