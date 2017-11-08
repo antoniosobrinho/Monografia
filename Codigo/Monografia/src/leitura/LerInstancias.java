@@ -38,7 +38,7 @@ public class LerInstancias {
 		
 	}
 	
-	public void lerDetalhes() {
+	private void lerDetalhes() {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/detalhes.txt"));
 			
@@ -49,12 +49,11 @@ public class LerInstancias {
 			
 			lerArq.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void lerProdutosSubarea(){
+	private void lerProdutosSubarea(){
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ProdutosSubarea.txt"));
 			
@@ -75,8 +74,6 @@ public class LerInstancias {
 			lerArq.close();
 			this.produtosSubarea = produtosSubarea;
 			
-			this.produtos = produtos;
-			
 		}catch (IOException e) {
 	        System.err.printf("Erro na abertura do arquivo: %s.\n",
 	                e.getMessage());
@@ -84,7 +81,7 @@ public class LerInstancias {
 			
 	}
 	
-	public void lerEstoqueSubArea() {
+	private void lerEstoqueSubArea() {
 		
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ConfigSubArea.txt"));
@@ -103,12 +100,11 @@ public class LerInstancias {
 			lerArq.close();
 			this.estoquesSubarea = estoquesSubarea;
 		}catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void lerEquipamentoCapacidade() {
+	private void lerEquipamentoCapacidade() {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/EquipCapacSubArea.txt"));
 		
@@ -123,12 +119,11 @@ public class LerInstancias {
 			lerArq.close();
 			this.capacidadeEquipamentos = capacidadeEquipamentos;
 		}catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void lerRotasEquipamento() {
+	private void lerRotasEquipamento() {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/MaqRota.txt"));
 			
@@ -147,12 +142,11 @@ public class LerInstancias {
 			lerArq.close();
 			this.rotasEquipamentos = rotasEquipamentos;
 		}catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void lerChegadaProdutos() {
+	private void lerChegadaProdutos() {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ChegadaTrem.txt"));
 			
@@ -170,12 +164,11 @@ public class LerInstancias {
 			lerArq.close();
 			this.chegadaProdutos = chegadaProdutos;
 		}catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+						e.printStackTrace();
 		}
 	}
 	
-	public void lerChegadaNavios() {
+	private void lerChegadaNavios() {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/ChegadaNavios.txt"));
 				
@@ -207,13 +200,12 @@ public class LerInstancias {
 			this.naviosPeriodo = naviosPeriodo;
 			this.piers = piers.toArray(new Integer[piers.size()]);
 		}catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
 	
-	public void lerRotas() {
+	private void lerRotas() {
 		
 		try {
 			Scanner lerArq =  new Scanner(new FileReader(diretorio+"/RotaRX-RecePatio.txt"));
@@ -252,10 +244,10 @@ public class LerInstancias {
 			this.rotas = rotas;
 			lerArq.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
+	
 	public int getNumSubAreas() {
 		return numSubareas;
 	}
