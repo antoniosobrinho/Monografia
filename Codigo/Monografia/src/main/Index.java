@@ -64,5 +64,7 @@ public class Index {
 	
 			
 		Otimizacao otimo = new Otimizacao(subAreas, equipamentos, periodos, rotas, produtos, piers);
+		
+		System.out.println("terminou");
 	}
 }
