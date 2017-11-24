@@ -127,17 +127,19 @@ public class LerInstancias {
 		try {
 			Scanner lerArq = new Scanner(new FileReader(diretorio + "/MaqRota.txt"));
 			
-			ArrayList<Integer>[] rotasEquipamentos = (ArrayList<Integer>[])new ArrayList[numEquipamentos];			
+			ArrayList<Integer>[] rotasEquipamentos = (ArrayList<Integer>[])new ArrayList[numRotas];			
 			
-			int equipamento = 0;
-			int dado;
+			for(int i=0; i<numRotas; i++) {
+				rotasEquipamentos[i] = new ArrayList<Integer>();
+			}
+			
+			int equipamento;
+			int rota;
 			while(lerArq.hasNext()) {
-				lerArq.nextInt();
-				rotasEquipamentos[equipamento] = new ArrayList<Integer>();
-				while((dado = lerArq.nextInt())!=-1) {
-					rotasEquipamentos[equipamento].add(dado);			
+				equipamento = lerArq.nextInt();
+				while((rota = lerArq.nextInt())!=-1) {
+					rotasEquipamentos[rota-1].add(equipamento);			
 				}
-				equipamento++;
 			}
 			lerArq.close();
 			this.rotasEquipamentos = rotasEquipamentos;
@@ -225,6 +227,7 @@ public class LerInstancias {
 			while(lerArq.hasNext()) {
 				rota = lerArq.nextInt()-1;
 				rotas[rota] = new Rota(Rota.RECEPCAO_PIER);
+				rotas[rota].setId(rota);
 				rotas[rota].setCapacidade(lerArq.nextInt());
 				lerArq.nextInt();
 				rotas[rota].setPier(lerArq.nextInt()-1);

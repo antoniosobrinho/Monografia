@@ -3,11 +3,13 @@ package main;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.Set;
 
 import dominio.Equipamento;
 import dominio.Navio;
 import dominio.Periodo;
 import dominio.Rota;
+import dominio.RotasConflito;
 import dominio.SubArea;
 import leitura.LerInstancias;
 
@@ -17,7 +19,7 @@ public class Index {
 			
 		Scanner input = new Scanner(System.in);
 		
-		String diretorio = input.next();
+		String diretorio = "/home/mourao/Documentos/Computação/Monografia/InstanciasArtigo_Tipo1/Instancia04Periodos/5Prod50Maq90Rota20Areas";
 		
 		input.close();
 
@@ -38,7 +40,9 @@ public class Index {
 		
 		//Seta as rotas
 		Rota[] rotas = lerInstancias.getRotas();
-		
+		for(int i=0; i<rotas.length; i++) {
+			rotas[i].setEquipamentos(rotasEquipamentos[i]);
+		}
 		//seta todas as subAreas com suas caracteristicas
 		for(int i=0; i<subAreas.length;i++) {
 			subAreas[i] = new SubArea();
@@ -52,7 +56,6 @@ public class Index {
 		for(int i=0; i<equipamentos.length;i++) {
 			equipamentos[i] = new Equipamento();
 			equipamentos[i].setCapacidadeTransporte(capacidadeTransporte[i]);
-			equipamentos[i].setRotas(rotasEquipamentos[i]);
 		}
 		
 		//seta todos os periodos com suas caracteristicas
@@ -61,10 +64,22 @@ public class Index {
 			periodos[i].setChegadaProdutos(chegadaProdutos[i]);
 			periodos[i].setNavios(naviosPeriodo[i].toArray(new Navio[naviosPeriodo[i].size()]));
 		}
-	
-			
-		Otimizacao otimo = new Otimizacao(subAreas, equipamentos, periodos, rotas, produtos, piers);
 		
-		System.out.println("terminou");
+		ArrayList<RotasConflito> rc = new ArrayList<RotasConflito>();
+		for(int r=0; r<rotas.length-1; r++) {
+			for(int rl=r+1; rl<rotas.length;rl++) {
+				for(int e=0; e<equipamentos.length; e++) {
+					if(rotas[r].getEquipamentos().contains(e)&&rotas[rl].getEquipamentos().contains(e)) {
+						rc.add(new RotasConflito(rotas[r], rotas[rl]));
+						break;
+					}
+				}
+			}
+		}
+		
+		Otimizacao otimo = new Otimizacao(subAreas, equipamentos, periodos, rotas, produtos, piers, rc.toArray(new RotasConflito[rc.size()]));
+				
 	}
+	
+	
 }

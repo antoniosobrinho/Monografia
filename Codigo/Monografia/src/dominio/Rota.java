@@ -1,12 +1,15 @@
 package dominio;
 
+import java.util.ArrayList;
+
 public class Rota {
 
 	public static final int RECEPCAO_PATIO = 1;
 	public static final int RECEPCAO_PIER = 2;
 	public static final int PATIO_PIER = 3;
 	
-	private int tipo, capacidade, distancia, pier, subArea;
+	private int tipo, capacidade, distancia, pier, subArea, id;
+	private ArrayList<Integer> equipamentos;
 	
 	public Rota(int tipo) {
 		setTipo(tipo);
@@ -23,6 +26,14 @@ public class Rota {
 		
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
 	public int getPier() {
 		return pier;
 	}
@@ -61,6 +72,14 @@ public class Rota {
 
 	public void setDistancia(int distancia) {
 		this.distancia = distancia;
+	}
+	
+	public void setEquipamentos(ArrayList<Integer> equipamentos) {
+		this.equipamentos = equipamentos;
+	}
+	
+	public ArrayList<Integer> getEquipamentos(){
+		return equipamentos;
 	}
 	
 }
