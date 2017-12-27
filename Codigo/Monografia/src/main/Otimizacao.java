@@ -126,12 +126,12 @@ public class Otimizacao {
 		}
 		int rotasY = 0;
 		//Cria a variavel 4
-		for(int i=0; i<rotas.length; i++) {
-			if(rotas[i].getTipo()==Rota.RECEPCAO_PIER) {
-				for(int j=1; j<produtos.length; j++) {
-					for(int k=1; k<produtos.length; k++) {
-						for(int w=0; w<periodos.length; w++) {
-							y[rotasY][j][k][w] =  model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, "yR"+Integer.toString(i)+"P"+Integer.toString(j)+"P'"+Integer.toString(k)+"T'"+Integer.toString(w));						
+		for(int r=0; r<rotas.length; r++) {
+			if(rotas[r].getTipo()==Rota.RECEPCAO_PIER) {
+				for(int p=1; p<produtos.length; p++) {
+					for(int pl=1; pl<produtos.length; pl++) {
+						for(int t=0; t<periodos.length; t++) {
+							y[rotasY][p][pl][t] =  model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, "yR"+Integer.toString(r)+"P"+Integer.toString(p)+"PL"+Integer.toString(pl)+"T'"+Integer.toString(t));						
 						}
 					}
 				}
@@ -140,12 +140,12 @@ public class Otimizacao {
 		}	
 		int rotasZ = 0;
 		//Cria a variavel 5
-		for(int i=0; i<rotas.length; i++) {
-			if(rotas[i].getTipo()==Rota.PATIO_PIER) {
-				for(int j=1; j<produtos.length; j++) {
-					for(int k=1; k<produtos.length; k++) {
-						for(int w=0; w<periodos.length; w++) {
-							z[rotasZ][j][k][w] =  model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, "zR"+Integer.toString(i)+"P"+Integer.toString(j)+"P'"+Integer.toString(k)+"T'"+Integer.toString(w));
+		for(int r=0; r<rotas.length; r++) {
+			if(rotas[r].getTipo()==Rota.PATIO_PIER) {
+				for(int p=1; p<produtos.length; p++) {
+					for(int pl=1; pl<produtos.length; pl++) {
+						for(int t=0; t<periodos.length; t++) {
+							z[rotasZ][p][pl][t] =  model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, "zR"+Integer.toString(r)+"P"+Integer.toString(p)+"PL"+Integer.toString(pl)+"T'"+Integer.toString(t));
 						}
 					}
 				}
@@ -155,7 +155,7 @@ public class Otimizacao {
 
 		//Cria a variavel 6
 		for(int s=0; s<subAreas.length; s++) {
-			for(int p=0; p<produtos.length; p++) {
+			for(int p=1; p<produtos.length; p++) {
 				for(int t=0; t<periodos.length; t++) {
 					name = "eS"+Integer.toString(s)+"P"+Integer.toString(p)+"T"+Integer.toString(t);
 					e[s][p][t] = model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, name);
@@ -163,24 +163,18 @@ public class Otimizacao {
 			}
 		}	
 		//Cria variavel 7
-		for(int p=0; p<produtos.length;p++) {
+		for(int p=1; p<produtos.length;p++) {
 			for(int t=0; t<periodos.length; t++) {
-				int quant = 0;//soma da quantidade do produtos no periodo e nos anteriores
-				for(int w=t;w>=0;w--) {//percorre os periodos anteriodes
-					if(periodos[w].getChegadaProdutos().containsKey(p)) {
-						quant += periodos[w].getChegadaProdutos().get(p);
-					}
-				}
 				ir[p][t] = model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, "irP"+Integer.toString(p)+"T"+Integer.toBinaryString(t));
 			}
 		}
 		
 		//Cria variavel 8
 		for(int n=0;n<piers.length; n++) {
-			for(int t=0; t<periodos.length; t++) {
-				for(int p=1;p<produtos.length; p++) {
+			for(int p=1;p<produtos.length; p++) {
+				for(int t=0; t<periodos.length; t++) {
 					name = "ipN"+Integer.toString(n)+"P"+Integer.toString(p)+"T"+Integer.toString(t);
-					ip[n][p][t] = model.addVar(0.0, GRB.INFINITY, 1.0, GRB.CONTINUOUS, name);
+					ip[n][p][t] = model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, name);
 				}				
 			}
 		}	
@@ -189,30 +183,23 @@ public class Otimizacao {
 			for(int j=1; j<produtos.length;j++) {
 				for(int k=1; k<produtos.length;k++) {
 					for(int w=0; w<periodos.length; w++) {
-						name = "tS"+Integer.toString(i)+"P"+Integer.toString(j)+"P'"+Integer.toString(k)+"T"+Integer.toString(w);
-						if(((rotas[i].getTipo()==Rota.RECEPCAO_PATIO)&&(j!=k))) {
-							continue; 
-						}
-						else {
+						if(!((rotas[i].getTipo()==Rota.RECEPCAO_PATIO)&&(j!=k))) {
+							name = "tS"+Integer.toString(i)+"P"+Integer.toString(j)+"P'"+Integer.toString(k)+"T"+Integer.toString(w);
 							t[i][j][k][w] = model.addVar(0.0, GRB.INFINITY, 0.0, GRB.CONTINUOUS, name);
-							
-						}
+						}	
 					}
 				}
 			}
 		}
+		
 		//Cria a variavel 10
 		for(int i=0; i<rotas.length;i++) {
 			for(int j=1; j<produtos.length;j++) {
 				for(int k=1; k<produtos.length;k++) {
 					for(int w=0; w<periodos.length; w++) {
 						name = "uS"+Integer.toString(i)+"P"+Integer.toString(j)+"P'"+Integer.toString(k)+"T"+Integer.toString(w);
-						if((rotas[i].getTipo()==Rota.RECEPCAO_PATIO)&&(j!=k)) {
-							continue;						
-						}
-						else {
-							u[i][j][k][w] = model.addVar(0.0, 1.0, 0.0, GRB.BINARY, name);
-							
+						if(!((rotas[i].getTipo()==Rota.RECEPCAO_PATIO)&&(j!=k))) {
+							u[i][j][k][w] = model.addVar(0.0, 1.0, 0.0, GRB.BINARY, name);						
 						}
 					}
 				}
@@ -346,7 +333,7 @@ public class Otimizacao {
 		
 		//Constraint 4.5
 		for(int i=0; i<subAreas.length; i++) {
-			for(int j=0; j<produtos.length; j++) {
+			for(int j=1; j<produtos.length; j++) {
 				for(int k=0; k<periodos.length; k++) {
 					model.addConstr(e[i][j][k], GRB.LESS_EQUAL, subAreas[i].getCapacidade(), "4.5S"+Integer.toString(i)+"P"+Integer.toString(j)+"T"+Integer.toString(k));
 				}
@@ -389,7 +376,7 @@ public class Otimizacao {
 		for(int i=0; i<subAreas.length; i++) {
 			for(int w=0; w<periodos.length;w++) {
 				expr = new GRBLinExpr();
-				for(int j=0; j<produtos.length;j++) {
+				for(int j=1; j<produtos.length;j++) {
 					expr.addTerm(1.0, f[i][j][w]);
 				}
 				model.addConstr(expr, GRB.EQUAL, 1.0, "4.7-S"+Integer.toString(i)+"T"+Integer.toString(w));
@@ -1023,11 +1010,11 @@ public class Otimizacao {
 				for(int t=0; t<periodos.length;t++) {
 					for(int r=0; r<rotas.length; r++) {
 						if(rotas[r].getTipo()==Rota.RECEPCAO_PIER) {
-							expr.addTerm(0.01*rotas[r].getCapacidade(), y[auxY][p][pl][t]);
+							expr.addTerm(0.01*Math.abs(p-pl)*rotas[r].getCapacidade(), y[auxY][p][pl][t]);
 							auxY++;
 						}
 						if(rotas[r].getTipo()==Rota.PATIO_PIER) {
-							expr.addTerm(0.01*rotas[r].getCapacidade(), z[auxZ][p][pl][t]);
+							expr.addTerm(0.01*Math.abs(p-pl)*rotas[r].getCapacidade(), z[auxZ][p][pl][t]);
 							auxZ++;
 						}
 					}
@@ -1044,7 +1031,7 @@ public class Otimizacao {
 			for(int t=0; t<periodos.length; t++) {
 				for(int r=0; r<rotas.length; r++) {
 					if(rotas[r].getTipo()==Rota.RECEPCAO_PATIO) {
-						expr.addTerm(rotas[r].getCapacidade(), x[auxX][p][t]);
+						expr.addTerm(0.01*rotas[r].getDistancia()*rotas[r].getCapacidade(), x[auxX][p][t]);
 						auxX++;
 					}
 				}
@@ -1057,7 +1044,7 @@ public class Otimizacao {
 				for(int t=0; t<periodos.length; t++) {
 					for(int r=0; r<rotas.length; r++) {
 						if(rotas[r].getTipo()==Rota.RECEPCAO_PIER) {
-							expr.addTerm(rotas[r].getCapacidade(), y[auxY][p][pl][t]);
+							expr.addTerm(0.01*rotas[r].getDistancia()*rotas[r].getCapacidade(), y[auxY][p][pl][t]);
 							auxY++;
 						}
 					}
@@ -1071,7 +1058,7 @@ public class Otimizacao {
 				for(int t=0; t<periodos.length; t++) {
 					for(int r=0; r<rotas.length; r++) {
 						if(rotas[r].getTipo()==Rota.PATIO_PIER) {
-							expr.addTerm(rotas[r].getCapacidade(), z[auxZ][p][pl][t]);
+							expr.addTerm(0.01*rotas[r].getDistancia()*rotas[r].getCapacidade(), z[auxZ][p][pl][t]);
 							auxZ++;
 						}
 					}
@@ -1082,7 +1069,6 @@ public class Otimizacao {
 		try {
 			model.setObjective(expr, GRB.MINIMIZE);
 		} catch (GRBException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

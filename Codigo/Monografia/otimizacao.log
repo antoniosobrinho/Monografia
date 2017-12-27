@@ -3508,3 +3508,87 @@ Solution count 3: 1.09812e+07 1.11808e+07 1.29658e+07
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.098125000000e+07, best bound 1.098125000000e+07, gap 0.0000%
+
+Gurobi 7.5.1 (linux64, Java) logging started Qui 30 Nov 2017 12:20:58 -03
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (linux64, Java) logging started Qui 30 Nov 2017 12:21:47 -03
+
+Academic license - for non-commercial use only
+Optimize a model with 31620 rows, 30020 columns and 638905 nonzeros
+Variable types: 21260 continuous, 8760 integer (8760 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [2e+00, 3e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 27480 rows and 26539 columns
+Presolve time: 0.41s
+Presolved: 4140 rows, 3481 columns, 12030 nonzeros
+Variable types: 281 continuous, 3200 integer (3200 binary)
+Found heuristic solution: objective 1.153952e+07
+
+Root relaxation: objective 1.076216e+07, 728 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.0762e+07    0  520 1.1540e+07 1.0762e+07  6.74%     -    0s
+H    0     0                    1.153951e+07 1.0762e+07  6.74%     -    0s
+H    0     0                    1.094950e+07 1.0762e+07  1.71%     -    0s
+     0     0 1.0919e+07    0  341 1.0950e+07 1.0919e+07  0.28%     -    0s
+     0     0 1.0919e+07    0   20 1.0950e+07 1.0919e+07  0.28%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Implied bound: 4
+  Clique: 1
+  MIR: 1
+  Flow cover: 7
+
+Explored 1 nodes (3324 simplex iterations) in 0.81 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 1.09495e+07 1.15395e+07 1.15395e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.094950000000e+07, best bound 1.094950000000e+07, gap 0.0000%
+
+Gurobi 7.5.1 (linux64, Java) logging started Qui 30 Nov 2017 12:23:29 -03
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 0 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0000000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective  1.000000000e+02
+
+Gurobi 7.5.1 (linux64, Java) logging started Qui 30 Nov 2017 12:23:52 -03
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 0 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0000000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective  1.000000000e+02
+
+Gurobi 7.5.1 (linux64, Java) logging started Sex 01 Dez 2017 16:37:18 -03
+
+Academic license - for non-commercial use only

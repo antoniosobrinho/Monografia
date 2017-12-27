@@ -1,0 +1,55 @@
+/*********************************************
+ * OPL 12.7.0.0 Model
+ * Author: LACMOR_07
+ * Creation Date: 05/12/2017 at 17:07:42
+ *********************************************/
+{int} Navios = ...;
+{int} Mares = ...;
+{string} Cargas = ...;	// Matérias-primas
+{int} Bercos = ...;
+
+int chegada[Navios] = ...;
+float vazao[Bercos] = ...;
+float consumo[Cargas] = ...;
+float estoque[Cargas] = ...;
+float carregamento[Navios, Cargas] = ...;
+int tempo[n in Navios, b in Bercos] = ftoi(ceil(sum(ca in Cargas) carregamento[n,ca]/vazao[b]));
+
+dvar int+ y[Navios, Mares, Bercos] in 0..1;
+
+minimize
+  sum(n in Navios, m in Mares, b in Bercos) ((m - chegada[n]+ tempo[n,b]) * y[n,m,b]);
+  
+subject to {
+  antes_chegada:
+    forall(n in Navios)
+      sum(m in 1..chegada[n]-1, b in Bercos) y[n,m,b] == 0; 
+      
+  atraca_mare:
+    forall(n in Navios)
+      sum(m in Mares: m >= chegada[n], b in Bercos) y[n,m,b] == 1;
+      
+  navio_seguinte:
+  	forall(n in Navios, m in Mares, b in Bercos)
+      sum(i in Navios, j in m..m+tempo[n,b]-1: j <= card(Mares) && i != n) y[i,j,b] <= (1-y[n,m,b]) * (card(Navios));
+      
+  controle_estoque:
+    forall(m in Mares, c in Cargas)
+      sum(n in Navios, b in Bercos, j in chegada[n]..m) (minl(m-chegada[n]+1,tempo[n,b])/tempo[n,b]) * carregamento[n,c] * y[n,j,b] >= m * consumo[c] - estoque[c];
+     
+};
+
+execute {
+  writeln("Problema de Alocação de Berços");
+}
+
+tuple coef {
+  float mare;
+  float tempo;
+     
+  }
+  
+coef Coef[n in Navios][m in Mares][b in Bercos] = <m * y[n,m,b], (m + tempo[n,b] - chegada[n]) * y[n,m,b]>;
+
+	execute DISPLAY {
+  	writeln("coef=",Coef);
