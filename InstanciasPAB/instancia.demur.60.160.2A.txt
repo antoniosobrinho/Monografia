@@ -1,15 +1,11 @@
 N 60
 M 200
 K Alumina Bauxita Manganes Ferro ;
-L 7
+L 3
 v
-1 5
-2 7
-3 6
-4 6
-1 5
-2 7
-3 6
+1 10
+2 14
+3 13
 d
 1 500
 2 1000
@@ -133,15 +129,15 @@ a
 59 60
 60 60
 e
-Bauxita 30
-Alumina 39
-Manganes 61
-Ferro 21
+Bauxita 600
+Alumina 780
+Manganes 1220
+Ferro 420
 ck
-Bauxita 2
-Alumina 3
-Manganes 4
-Ferro 2
+Bauxita 80
+Alumina 100
+Manganes 160
+Ferro 80
 q Bauxita Alumina Manganes Ferro
 1	0	0	37	0
 2	41	0	0	0
@@ -184,7 +180,7 @@ q Bauxita Alumina Manganes Ferro
 39	0	0	23	0
 40	0	22	0	0
 41	0	0	0	25
-2	0	0	0	27
+42	0	0	0	27
 43	0	0	34	0
 44	0	0	33	0
 45	0	0	0	19

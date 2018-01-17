@@ -65,13 +65,13 @@ public class LerInstancia {
 				v[i] = input.nextInt();
 			}
 		
-			//Lê o conjunto D
+		/*	//Lê o conjunto D
 			input.next();
 			d = new Integer[n.size()];
 			for(int i=0; i<n.size(); i++) {
 				input.nextInt();
 				d[i] = input.nextInt();
-			}
+			}*/
 			
 			//Lẽ o conjunto A
 			input.next();
@@ -79,6 +79,7 @@ public class LerInstancia {
 			for(int i : n) {
 				input.nextInt();
 				a[i] = input.nextInt();
+				if(i>50) a[i] += 237;
 			}
 			
 			//Lê o conjunto E
@@ -106,7 +107,7 @@ public class LerInstancia {
 				input.nextInt();
 				q[i] = new HashMap<String, Double>();
 				for(int j=0; j<prod.length; j++) {
-					q[i].put(prod[j], input.nextDouble());
+					q[i].put(prod[j], input.nextDouble()*2.75);
 				}
 			}
 			input.close();

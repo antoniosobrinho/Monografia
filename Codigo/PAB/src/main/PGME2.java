@@ -1,5 +1,8 @@
 package main;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 
 import javax.naming.LimitExceededException;
@@ -29,9 +32,9 @@ public class PGME2 {
 	//Variaveis
 	GRBVar[][][] y;
 	
+	private double time;
 	
-	
-	public PGME2(Integer[] n, Integer[] m, Integer[] l, Integer[] v, Integer[] d, Integer[] a, String[] k,
+	public void Otimizacao(Integer[] n, Integer[] m, Integer[] l, Integer[] v, Integer[] d, Integer[] a, String[] k,
 			 HashMap<String, Double> e,  HashMap<String, Double> c,  HashMap<String, Double>[] q, Double[][] h) {
 		
 		this.n = n;
@@ -54,25 +57,18 @@ public class PGME2 {
 			criaFO(model);
 			criaConstrants(model);
 		
+			double start = System.currentTimeMillis();
 			model.optimize();
+			time = System.currentTimeMillis() - start;
 			
-			for(int i : n) {
-				for(int j : m) {
-					for(int w : l) {
-						if(y[i][j][w].get(GRB.DoubleAttr.X) == 1.0) {
-							System.out.print(y[i][j][w].get(GRB.DoubleAttr.X)+" YN"+Integer.toString(i)+"M"+Integer.toString(j)+"B"+Integer.toString(w));
-							System.out.println();
-						}
-					}
-				}
-			}
+		    
 		} catch (GRBException exc) {
 			exc.printStackTrace();
 		}
 	
 		
 	}
-	
+
 	public void criaVariaveis(GRBModel model) {
 		
 		y = new GRBVar[n[n.length-1]+1][m[m.length-1]+1][l[l.length-1]+1];
@@ -155,7 +151,7 @@ public class PGME2 {
 						}
 					}
 				}
-				model.addConstr(expr, GRB.GREATER_EQUAL, j*c.get(p) - e.get(p),"4.6M"+Integer.toString(j)+"K"+p );
+				model.addConstr(expr, GRB.LESS_EQUAL, j*c.get(p) + e.get(p),"4.6M"+Integer.toString(j)+"K"+p );
 			}	
 		}
 	}
@@ -167,12 +163,16 @@ public class PGME2 {
 		for(int i : n) {
 			for(int j : m) {
 				for(int w : l) {
-					expr.addTerm(j-a[i]+h[i][w], y[i][j][w]);
+					expr.addTerm(j - a[i] + h[i][w], y[i][j][w]);
 				}
 			}
 		}
 		
 		model.setObjective(expr, GRB.MINIMIZE);
+	}
+	
+	public double getTime() {
+		return time;
 	}
 }
 

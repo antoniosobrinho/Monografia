@@ -19,10 +19,10 @@ public class Otimizacao {
 	private Integer[] v;
 	private Integer[] d;
 	private Integer[] a;
-	private HashMap<String, Integer> e;
-	private HashMap<String, Integer> c;
+	private HashMap<String, Double> e;
+	private HashMap<String, Double> c;
 	private Double[][] h;
-	private  HashMap<String, Integer>[] q;
+	private  HashMap<String, Double>[] q;
 	
 	//Variaveis
 	GRBVar[][] x;
@@ -32,7 +32,7 @@ public class Otimizacao {
 	
 	
 	public Otimizacao(Integer[] n, Integer[] m, Integer[] l, Integer[] v, Integer[] d, Integer[] a, String[] k,
-			 HashMap<String, Integer> e,  HashMap<String, Integer> c,  HashMap<String, Integer>[] q, Double[][] h) {
+			 HashMap<String, Double> e,  HashMap<String, Double> c,  HashMap<String, Double>[] q, Double[][] h) {
 		
 		this.n = n;
 		this.m = m;
@@ -101,7 +101,7 @@ public class Otimizacao {
 		GRBLinExpr expr = new GRBLinExpr();
 
 		for(int i : n) {
-			for(int j : m) {
+			for(int j=a[i]; j<=m[m.length-1]; j++) {
 				for(int w : l) {
 					Integer cons = (int) Math.ceil((j-a[i] +1)/h[i][w]);
 					expr.addTerm(cons, y[i][j][w]);

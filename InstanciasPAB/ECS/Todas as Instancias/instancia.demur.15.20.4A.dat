@@ -1,0 +1,70 @@
+data;
+set N := 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15;
+set M := 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20;
+set K := Alumina Bauxita Manganes Ferro;
+set L := 1 2 3 4;
+param Mares := 20;
+param v :=
+1 5
+2 4
+3 6
+4 4;
+param d :=
+1 1
+2 1
+3 1
+4 1
+5 1
+6 1
+7 1
+8 1
+9 5
+10 5
+11 5
+12 5
+13 5
+14 5
+15 5;
+param a :=
+1 1
+2 1
+3 3
+4 5
+5 5
+6 6
+7 7
+8 9
+9 9
+10 10
+11 12
+12 12
+13 13
+14 14
+15 14;
+param e :=
+Bauxita 16
+Alumina 17
+Manganes 18
+Ferro 16;
+param ck :=
+Bauxita 3
+Alumina 3
+Manganes 2
+Ferro 3;
+param q : Bauxita Alumina Manganes Ferro :=
+1	8	0	0	0
+2	0	5	0	0
+3	0	0	0	5
+4	0	0	8	0
+5	0	10	0	0
+6	0	0	0	8
+7	0	12	0	0
+8	12	0	0	0
+9	0	0	0	17
+10	0	0	9	0
+11	16	0	0	0
+12	0	0	0	17
+13	0	0	14	0
+14	15	0	0	0
+15	0	28	0	0;
+end;
